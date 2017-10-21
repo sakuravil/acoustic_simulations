@@ -80,7 +80,8 @@ coeff31[12] = 6. * (-C3 + C2) / xi * 0.5
 coeff31[13] = 6. * (C3 - C2) / xi * 0.5
 coeff31[14] = (3. * C2 - 2. * C) * 0.5
 coeff31[15] = (3. * C2 - 4. * C + 1.) * 0.5
-Ua = c0 yi =-Ua * dt
+Ua = c0
+yi =-Ua * dt
 C  = c0 * dt / dy
 C2 = C  * C
 C3 = C2 * C
